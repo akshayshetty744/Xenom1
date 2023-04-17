@@ -1,0 +1,315 @@
+* {
+  margin: 0%;
+}
+body {
+  width: 100%;
+}
+.hamberger {
+  display: none;
+}
+.logo {
+  width: 8%;
+}
+.mainNavbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(118, 178, 251, 0.081);
+}
+.nav {
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navList {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(15, 15, 15, 0.829);
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: 20px;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.navList > li {
+  font-size: 17px;
+  display: flex;
+  align-items: flex-start;
+}
+.navList > li:hover {
+  color: rgb(206, 74, 22);
+}
+.appoinmentBtn {
+  background-color: rgb(238, 72, 114);
+  width: 160px;
+  border: none;
+  border-radius: 6px 6px;
+  color: white;
+  padding: 12px 10px;
+  cursor: pointer;
+}
+.appoinmentBtn:hover {
+  background-color: blue;
+}
+.section1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.section1-left {
+  padding: 6%;
+  width: 50%;
+  background-color: #f4f9ff;
+}
+.section1-right {
+  width: 50%;
+  height: 120vh;
+}
+.welcome {
+  color: #28bd86;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title {
+  font-size: 58px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+}
+.describe {
+  color: #585858;
+  line-height: 1.8em;
+  font-family: serif;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.sectBtn1 {
+  background-color: rgb(238, 72, 114);
+  color: white;
+  border: none;
+  padding: 12px 13px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 5%;
+  box-shadow: 1px 4px 13px 2px rgba(238, 72, 114, 0.367);
+}
+.sectBtn1:hover {
+  box-shadow: 1px 4px 13px 2px #28bd865d;
+  background-color: #28bd86;
+  color: white;
+}
+.sectBtn2 {
+  background-color: rgb(255, 255, 255);
+  color: #28bd86;
+  border: 1px solid #28bd86;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 5%;
+  margin-left: 19px;
+}
+.sectBtn2:hover {
+  background-color: #28bd86;
+  color: white;
+}
+
+.details {
+  background-color: #f4f9ff;
+  display: flex;
+  width: 100%;
+}
+.section2-left {
+  padding-left: 6%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.section2-right {
+  width: 50%;
+}
+.care {
+  border-radius: 14px 14px;
+  /* margin-top: 36%; */
+
+  width: 100%;
+}
+.Employ {
+  padding: 30px;
+  font-size: 48px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  padding-top: 30%;
+}
+.treatment {
+  padding: 10px 20px 10px 30px;
+  font-size: 18px;
+  line-height: 1.6em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.536);
+  margin-bottom: 20px;
+  padding-top: 10%;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 18vh;
+  margin-bottom: 20px;
+}
+.outOf {
+  width: 30%;
+  background-color: #1b5fc1;
+  border-radius: 14px 14px 14px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.five {
+  font-size: 48px;
+  color: white;
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.G {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #28bd86;
+}
+.f {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #28bd86;
+}
+.gr {
+  font-size: 28px;
+  font-weight: 900;
+  color: black;
+}
+.google {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 6% 3% 6%;
+  background-color: #1b60c1e5;
+}
+.Address {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+.list-Address {
+  list-style-type: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.564);
+  padding-right: 20px;
+}
+
+.addressData {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 6%;
+  background-color: #ecf0f5;
+}
+.footerLogo,
+.link1,
+.link2 {
+  list-style-type: none;
+  width: 30%;
+}
+.Useful {
+  color: black;
+}
+.link1 > li,
+.link2 > li {
+  margin-top: 10px;
+  color: rgb(57, 56, 56);
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  .mainNavbar {
+    justify-content: space-between;
+  }
+  .nav {
+    display: none;
+  }
+  .hamberger {
+    display: inline;
+  }
+  .hamberger > button {
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+  }
+  .section1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .section1-left {
+    width: 88%;
+  }
+  .section1-right {
+    width: 100%;
+    height: 75vh;
+  }
+  .details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 43%;
+  }
+  .care {
+    width: 94%;
+  }
+  .section2-left {
+    width: 100%;
+  }
+  .section2-right {
+    width: 100%;
+  }
+  .rating {
+    display: flex;
+    flex-direction: column;
+  }
+  .outOf,
+  .google,
+  .facebook {
+    width: 100%;
+  }
+  .contact {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%;
+  }
+  .list-Address {
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.564);
+    padding: 10% 0% 10% 0%;
+  }
+}
